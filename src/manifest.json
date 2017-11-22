@@ -1,6 +1,6 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "AreonChatBoot",
+  "short_name": "ChatBoot",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{

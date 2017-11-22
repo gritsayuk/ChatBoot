@@ -4,10 +4,37 @@
       About
     </ion-title>
   </ion-navbar>
+
 </ion-header>
 
 <ion-content padding>
   <!--span [inner-html]="https://dev.bankit.com.ua/webchat/demo.html"></span-->
   <!--div ng-include src="'http://www.w3schools.com'"</div-->
-  <iframe class="frame-chat" src="https://dev.bankit.com.ua/webchat/demo.html"  ></iframe>
+  <!--iframe class="frame-chat" src="https://dev.bankit.com.ua/webchat/demo.html"  ></iframe-->
+  <!--script-- id="areon_consulting_webchat" type="text/javascript">
+
+    (function(d,w){
+      alert("1");
+      w.__bankitCC = {
+        host: 'dev.bankit.com.ua',
+        cookieName:'_acbswcu',
+        clientUID : false,
+        lang: 'ru',
+        client:{ name:false },
+        autoStart:true,
+        style:false,
+        close:true
+      };
+      var s=d.createElement('script');
+      s.src="https://"+w.__bankitCC.host+"/webchat/script.js";
+      s.async=true;
+      s.type="text/javascript";
+      alert("2");
+      if(d.body)d.body.appendChild(s);
+      alert("3");
+
+    })(document,window)
+
+  </script-->
+<div class="boot1">----</div>
 </ion-content>
